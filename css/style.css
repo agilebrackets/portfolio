@@ -385,6 +385,10 @@ main .work-part .box:nth-child(8) {
     background-image: url(../images/p8.png);
 }
 
+main .work-part .box:nth-child(9) {
+    background-image: url(../images/p9.jpg);
+}
+
 main .work-part .btn {
     flex-basis: 100%;
     height: 14vh;
@@ -861,11 +865,15 @@ main .p6d .box:nth-child(2) {
 }
 
 main .p7d .box:nth-child(2) {
-    background-image: url(../images/p7d.jpg);
+    background-image: url(../images/p7d.png);
 }
 
 main .p8d .box:nth-child(2) {
     background-image: url(../images/p8d.jpg);
+}
+
+main .p9d .box:nth-child(2) {
+    background-image: url(../images/p9d.jpg);
 }
 
 /* contact page */
