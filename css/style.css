@@ -382,11 +382,7 @@ main .work-part .box:nth-child(7) {
 }
 
 main .work-part .box:nth-child(8) {
-    background-image: url(../images/p8.png);
-}
-
-main .work-part .box:nth-child(9) {
-    background-image: url(../images/p9.jpg);
+    background-image: url(../images/p8.jpg);
 }
 
 main .work-part .btn {
@@ -834,7 +830,6 @@ main .projectbreif-part .box:nth-child(2) {
     transition: all 6s ease-in-out;
 }
 
-
 main .projectbreif-part .box:nth-child(2):hover {
     background-position: bottom;
     transition: all 6s ease-in-out;
@@ -869,11 +864,7 @@ main .p7d .box:nth-child(2) {
 }
 
 main .p8d .box:nth-child(2) {
-    background-image: url(../images/p8d.jpg);
-}
-
-main .p9d .box:nth-child(2) {
-    background-image: url(../images/p9d.jpg);
+    background-image: url(../images/p8d.png);
 }
 
 /* contact page */
