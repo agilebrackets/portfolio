@@ -166,25 +166,16 @@ header nav ul li a:hover {
 /* hero section */
 
 header .hero-part {
-    width: 80%;
-    margin: auto;
+    width: 100%;
     padding: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    background-image: url(../images/heroimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header .hero-part .box {
-    flex-basis: 45%;
-}
-
-header .hero-part .box:nth-child(1) {
-    height: 300px;
-    background-image: url(../images/hero1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+   margin-left:50px;
 }
 
 header .hero-part .box h1 {
