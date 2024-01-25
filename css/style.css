@@ -115,6 +115,13 @@ html {
 
 /* Header Section --->-------->---------->--------> Start*/
 
+#header{
+    background-image:url(../images/heroimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* navbar */
 header .navigation {
     position: sticky;
