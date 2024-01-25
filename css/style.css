@@ -420,16 +420,12 @@ main .work-part .btn a:hover {
 
 main .service-part {
   padding: 70px 0;
-  background-color: white;
-  margin: auto;
-
 }
 
 
 main .service-part .services{
-  width:100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content:center;
   gap:15px;
 }
@@ -441,11 +437,11 @@ main .service-part .box {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
-main .service-part .box.  .highlight {
-  background-color:var(--var-teal)
-  color: var(--var-white);
+main .service-part .box .highlight {
+  background-color:var(--var-teal);
   padding: 10px 0px;
   text-align: center;
+  color: var(--var-white);
 }
 
 main .service-part .box ul {
