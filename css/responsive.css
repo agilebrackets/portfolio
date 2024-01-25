@@ -13,14 +13,7 @@
     line-height: 50px;
   }
 
-  /* service */
-  main .service-part {
-    width: 90%;
-  }
 
-  main .service-part .box {
-    flex-basis: 45%;
-  }
 
   /* testimonial */
   main .review-part .main-carousel3 {
@@ -162,25 +155,11 @@ text-align: center;
   }
 
   /* service section */
-  main .service-part {
-    width: 100%;
-  }
 
   main .service-part .box {
-    flex-basis: 85%;
+    flex-basis: 80%;
     border-radius:10px;
   }
-
-main .service-part .box .item:first-child{
-  display:none;
-}
-
-main .service-part .box .item .highlight{
-  border:none;
-  background-color:var(--var-teal):
-  color:var(--var-white);
-}
-
   
   /* testimonial */
   main .review-part .main-carousel3 {
@@ -272,10 +251,6 @@ main .service-part .box .item .highlight{
 
   main .service-part .box {
     flex-basis: 85%;
-    flex-wrap: wrap;
-  }
-  main .service-part .box .item:first-child{
-    padding-top: 40px;
   }
 
   /* testimonial */
