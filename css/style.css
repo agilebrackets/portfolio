@@ -27,7 +27,8 @@ html {
     --var-black: #000000;
     --var-grey: #808080;
     --var-whitesmoke: #ffffff;
-    --var-teal: #10c9c3;
+/*     --var-teal: #10c9c3; */
+  --var-teal: #5e17eb;
     --var-white: #ffffff;
     /* --var-main: #fbfbfb; */
     --var-main: rgba(128, 128, 128, 0.05);
