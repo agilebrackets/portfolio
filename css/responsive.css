@@ -1,0 +1,492 @@
+/* Laptop Screen */
+@media screen and (max-width: 1024px) {
+  /* navbar */
+
+  header nav ul li a {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  /* hero */
+  header .hero-part .box h1 {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+
+  /* service */
+  main .service-part {
+    width: 90%;
+  }
+
+  main .service-part .box {
+    flex-basis: 45%;
+  }
+
+  /* testimonial */
+  main .review-part .main-carousel3 {
+    width: 70%;
+  }
+}
+
+/* Tablet Screen */
+@media screen and (max-width: 768px) {
+  /* navbar */
+  header .navigation .desktop-nav {
+    display: none;
+  }
+
+  header .mobile-nav .logo {
+    margin-left: 0px;
+}
+
+
+  header .navigation .mobile-nav {
+    display: block;
+    padding: 12px 0;
+    overflow-x: hidden;
+  }
+
+  header .navigation .mobile-nav .navigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  header .navigation .mobile-nav .navigate .hamburger {
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+  }
+
+  header .navigation .mobile-nav .navigate .hamburger:hover {
+    color: var(--var-teal);
+  }
+
+  header .navigation .mobile-nav ul {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-top: 1px solid var(--var-black);
+    position: relative;
+    top: 15px;
+  }
+
+  header .navigation .mobile-nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  header .navigation .mobile-nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 15px 30px;
+    color: var(--var-black);
+  }
+
+  header .navigation .mobile-nav ul li a:hover {
+    background-color: var(--var-teal);
+    color: var(--var-white);
+  }
+
+  /* hero section */
+  header .hero-part .box h1 {
+    font-size: 2rem;
+    line-height: 35px;
+}
+
+header .hero-part .box {
+    width: 80%;
+    margin:30px auto;
+text-align: center;
+}
+
+  /* heading */
+
+  .heading-part .box {
+    flex-basis: 80%;
+  }
+
+  /* expertise section */
+
+  main .skills-part {
+    flex-wrap: wrap-reverse;
+    padding: 40px 0;
+  }
+
+  main .skills-part .box:first-child {
+    flex-basis: 80%;
+  }
+
+  main .skills-part .box:last-child {
+    flex-basis: 80%;
+  }
+
+  main .skills-part .box:nth-child(1) .skill {
+    width: 100%;
+  }
+
+  /* stats section */
+
+  main .stats-part {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  main .stats-part .box {
+    flex-basis: 40%;
+    justify-content: center;
+  }
+
+  main .stats-part .box i {
+    font-size: 2rem;
+  }
+
+  /* portfolio section */
+
+  main .work-part {
+    flex-wrap: wrap;
+  }
+
+  main .work-part .box {
+    flex-basis: 50%;
+    height: 20vh;
+  }
+
+  main .work-part .btn {
+    flex-basis: 100%;
+    height: 13vh;
+  }
+
+  /* service section */
+  main .service-part {
+    width: 80%;
+  }
+
+  main .service-part .box {
+    flex-basis: 85%;
+  }
+
+  /* testimonial */
+  main .review-part .main-carousel3 {
+    width: 80%;}
+
+  /* companies */
+  main .client-part .box {
+    width: 30%;
+  }
+
+  /* contact section */
+
+  main .contact-part .box {
+    flex-basis: 80%;
+  }
+
+  /* foot section */
+
+  footer .foot-part {
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+  }
+
+  footer .foot-part .box {
+    flex-basis: 30%;
+  }
+
+  footer .foot-part .box1 {
+    flex-basis: 80%;
+  }
+
+  footer .credit {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    padding: 15px 0;
+    background-color: var(--var-black);
+  }
+
+  footer .foot-part .box1 p {
+    width: 100%;
+  }
+
+  .arrow {
+    bottom: 50px;
+  }
+
+  /* About Page */
+
+  main .about-head-part .box p {
+    width: 60%;
+  }
+
+  /* More-projects */
+  main .more-head-part {
+    padding: 100px 40px 40px;
+  }
+
+  main .more-head-part .box h2 {
+    font-size: 1.4rem;
+  }
+
+  main .more-head-part .box p {
+    font-size: 12px;
+  }
+
+  /* contact page */
+  main .contact-page-part {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .contact-page-part .box {
+    flex-basis: 80%;
+    padding-bottom: 30px;
+  }
+}
+
+/* Mobile Screen Large */
+
+@media screen and (max-width: 430px) {
+  /* Services */
+
+  main .service-part .box {
+    flex-basis: 85%;
+    flex-wrap: wrap;
+  }
+  main .service-part .box .item:first-child{
+    padding-top: 40px;
+  }
+
+  /* testimonial */
+  main .review-part .heading-part {
+    padding: 10px;
+  }
+
+  main .review-part {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  main .review-part .main-carousel3 {
+    width: 90%;
+  }
+
+  main .review-part .review-list .box {
+    width: 90%;
+    padding: 30px;
+}
+
+  /* stats section */
+  main .stats-part {
+    justify-content: center;
+    align-items: center;
+  }
+  main .stats-part .box {
+    flex-basis: 60%;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+
+  /* hero section */
+
+  header .hero-part {
+    gap: 0px;
+  }
+
+  header .hero-part .box {
+    flex-basis: 100%;
+  }
+
+  /* heading */
+  .heading-part {
+    padding: 40px 20px;
+  }
+
+  .heading-part .box {
+    flex-basis: 100%;
+  }
+
+  /* expertise */
+  main .skills-part .box:nth-child(2) {
+    height: 40vh;
+    background-size: cover;
+  }
+
+  /* companies */
+  main .client-part .box {
+    width: 50%;
+  }
+
+  /* contact section */
+  main .contact-part .box {
+    flex-basis: 80%;
+  }
+
+  main .contact-part .box .data1 {
+    flex-wrap: wrap;
+  }
+
+  main .contact-part .box .data1 input {
+    flex-basis: 100%;
+    margin: 5px 0;
+  }
+
+  main .contact-part .box .heading-part {
+    padding: 10px;
+  }
+
+  /* scroller */
+  .arrow {
+    bottom: 60px;
+  }
+
+  .arrow a {
+    padding: 10px 20px;
+  }
+
+  /* footer */
+  footer .foot-part .box1 {
+    flex-basis: 100%;
+  }
+
+  footer .credit {
+    font-size: 12px;
+  }
+
+  /* About Page */
+
+  main .about-head-part .box p {
+    width: 80%;
+  }
+
+  main .about-head-part .box h2 {
+    font-size: 1.4rem;
+  }
+
+  /* more project page */
+
+  main .skills-part .box:last-child {
+    flex-basis: 100%;
+  }
+
+  /* contact page */
+  main .contact-page-part .box p {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  /* project-breif page */
+
+  main .contact-page-part .box:nth-child(3) a {
+    font-size: 12px;
+  }
+}
+
+/* Mobile Screen Small */
+
+@media screen and (max-width: 320px) {
+  /* button */
+  .main-btn {
+    font-size: 10px;
+    padding: 10px 15px;
+  }
+
+  /* heading */
+  .heading-part .box p {
+    font-size: 12px;
+  }
+
+  .heading-part .box img {
+    width: 60%;
+    height: 100px;
+  }
+
+  /* hero section */
+
+  header .hero-part .box:nth-child(1) {
+    height: 200px;
+  }
+
+  header .hero-part .box h1 {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  header .hero-part .box p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+
+  /* expertise section */
+  main .skills-part .box:nth-child(2) {
+    height: 50vh;
+  }
+
+  /* service section */
+
+  main .service-part {
+    padding: 20px 0;
+  }
+
+  /* Companies section */
+
+  main .client-part .box {
+    width: 100%;
+  }
+
+  /* testimonials section */
+  main .review-part .heading-part {
+    padding: 0;
+  }
+
+  main .review-part .main-carousel3 {
+    width: 100%;
+  }
+
+  /* contact section */
+  main .contact-part .box .heading-part {
+    padding: 0px;
+  }
+
+  main .contact-part .box .heading-part h2 {
+    font-size: 1.4rem;
+  }
+
+  main .contact-part .box .form-btn {
+    font-size: 10px;
+    padding: 15px 20px;
+  }
+
+  /* footer */
+
+  footer .foot-part .box1 p {
+    font-size: 12px;
+  }
+
+  footer .foot-part .box1 h2 {
+    font-size: 1.2rem;
+  }
+
+  footer .foot-part {
+    gap: 0px;
+  }
+
+  footer .foot-part .box ul li a {
+    font-size: 12px;
+  }
+
+  footer .foot-part .box ul li {
+    padding: 0 5px;
+  }
+}
