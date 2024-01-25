@@ -419,7 +419,6 @@ main .work-part .btn a:hover {
 /* service section */
 
 main .service-part {
-    width: 100%;
   padding: 70px 0;
   background-color: white;
   margin: auto;
@@ -428,34 +427,21 @@ main .service-part {
 
 
 main .service-part .services{
-    width:80%;
-  margin:auto;
+  width:100%;
   display: flex;
   align-items: center;
   justify-content:center;
-  gap:10px;
+  gap:15px;
 }
 
 main .service-part .box {
-    flex-basis: 22%;
+  flex-basis: 20%;
   text-align: center;
   overflow: hidden;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
-main .service-part .box i {
-  margin-bottom: 20px;
-  font-size: 2rem;
-  color: var(--var-white);
-}
-
-main .service-part .box h4 {
-  padding: 5px 0;
-  text-transform: capitalize;
-  color: var(--var-white);
-}
-
-main .service-part .box .highlight {
+main .service-part .box.  .highlight {
   background-color:var(--var-teal)
   color: var(--var-white);
   padding: 10px 0px;
