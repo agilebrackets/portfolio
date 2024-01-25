@@ -117,8 +117,6 @@ html {
 
 /* navbar */
 header .navigation {
-    background-color: var(--var-white);
-    box-shadow: -2px 4px 20px rgba(0,0,0,0.1);
     position: sticky;
     top: 0px;
     z-index: +10;
@@ -168,14 +166,12 @@ header nav ul li a:hover {
 header .hero-part {
     width: 100%;
     padding: 50px 0;
-    background-image: url(../images/heroimage.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 header .hero-part .box {
-   margin-left:50px;
+   margin-left:100px;
+    width:40%;
+    color:var(--var-white);
 }
 
 header .hero-part .box h1 {
@@ -185,7 +181,6 @@ header .hero-part .box h1 {
 
 header .hero-part .box p {
     padding-top: 20px;
-    color: var(--var-grey);
     letter-spacing: 1px;
     font-size: 14px;
     line-height: 25px;
