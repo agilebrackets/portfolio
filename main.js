@@ -8,7 +8,7 @@ var flkty = new Flickity('.main-carousel2', {
     // options
     prevNextButtons: false,
     pageDots: false,
-    cellAlign: 'left',
+    cellAlign: 'center',
     autoPlay: 2000,
     autoplay: true
 });
