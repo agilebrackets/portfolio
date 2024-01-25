@@ -9,6 +9,7 @@ var flkty = new Flickity('.main-carousel2', {
     prevNextButtons: false,
     pageDots: false,
     cellAlign: 'left',
+    autoPlay: 2000,
     autoplay: true
 });
 
