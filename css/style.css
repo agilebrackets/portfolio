@@ -118,6 +118,10 @@ html {
 /* navbar */
 header .navigation {
     background-color: var(--var-white);
+    box-shadow: -2px 4px 20px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0px;
+    z-index: +10;
 }
 
 header .navigation .mobile-nav {
