@@ -419,7 +419,7 @@ main .work-part .btn a:hover {
 /* service section */
 
 main .service-part {
-    width: 80%;
+    width: 100%;
   padding: 70px 0;
   background-color: white;
   margin: auto;
@@ -428,32 +428,20 @@ main .service-part {
 
 
 main .service-part .services{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    width:80%;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap:10px;
 }
 
 main .service-part .box {
-    flex-basis: 48%;
+    flex-basis: 22%;
   text-align: center;
-  display: flex;
-  align-items: center;
   overflow: hidden;
-  background-color: #5e17eb;
-  margin: 10px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
-
-
-main .service-part .box .item{
-    flex-basis: 100%;
-  
-}
-
-main .service-part .box .item:nth-child(even){
-    background-color: var(--var-white);
-}
-
 
 main .service-part .box i {
   margin-bottom: 20px;
@@ -468,22 +456,10 @@ main .service-part .box h4 {
 }
 
 main .service-part .box .highlight {
-  color: var(--var-black);
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-left: none ;
-  border-right: none;
+  background-color:var(--var-teal)
+  color: var(--var-white);
   padding: 10px 0px;
   text-align: center;
-}
-
-main .service-part .box h5 {
-  color: var(--var-white);
-  font-size: 12px;
-  font-weight: lighter;
-  text-align: justify;
-  line-height: 15px;
-  letter-spacing: 1px;
-  padding: 10px 20px;
 }
 
 main .service-part .box ul {
