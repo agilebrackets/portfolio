@@ -178,6 +178,7 @@ main .service-part .box .item:first-child{
 main .service-part .box .item .highlight{
   border:none;
   background-color:var(--var-teal):
+  color:var(--var-white);
 }
 
   
