@@ -585,6 +585,7 @@ main .review-part .review-list .box img {
 
 main .review-part .review-list .box h5 {
   font-weight: lighter;
+    padding: 3px 0;
 }
 
 main .review-part .review-list .box h5 span{
