@@ -171,6 +171,10 @@ text-align: center;
     border-radius:10px;
   }
 
+main .service-part .box .item:first-child{
+  display:none;
+}
+  
   /* testimonial */
   main .review-part .main-carousel3 {
     width: 80%;}
