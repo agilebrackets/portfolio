@@ -427,6 +427,7 @@ main .service-part .services{
   display: flex;
   align-items: flex-start;
   justify-content:center;
+  flex-wrap:wrap;
   gap:15px;
 }
 
@@ -435,6 +436,7 @@ main .service-part .box {
   text-align: center;
   overflow: hidden;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius:5px;
 }
 
 main .service-part .box .highlight {
@@ -442,6 +444,7 @@ main .service-part .box .highlight {
   padding: 10px 0px;
   text-align: center;
   color: var(--var-white);
+ font-size: 14px; 
 }
 
 main .service-part .box ul {
